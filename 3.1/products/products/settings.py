@@ -21,7 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-9iq^sf2=jrsjl*(@$-mspn#7h&v+6qct3i-%v8z^%e=&g5jf1b'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -80,9 +79,9 @@ WSGI_APPLICATION = 'products.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'название_БД',
-        'USER': 'имя_пользователя',
-        'PASSWORD': 'пароль',
+        'NAME': 'products_db',
+        'USER': 'postgres',
+        'PASSWORD': 'vika7333',
         'HOST': "localhost",
         "PORT": 5432
     }
